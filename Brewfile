@@ -9,3 +9,6 @@ brew "vim"
 #brew "zsh-completions"
 #brew "zsh-syntax-highlighting"
 #brew "zsh-fast-syntax-highlighting"
+
+cask "bartender"
+
