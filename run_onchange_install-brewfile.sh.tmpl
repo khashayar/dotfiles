@@ -1,0 +1,20 @@
+{{- if eq .chezmoi.os "linux" -}}
+#!/bin/bash
+
+# Set zsh as the default shell
+chsh -s $(which zsh)
+
+{{- else if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+
+# Brewfile hash: {{ include "Brewfile" | sha256sum }}
+brew bundle
+
+# Set zsh as the default shell
+{{- if eq .chezmoi.arch "arm64" -}}
+chsh -s /opt/homebrew/bin/zsh
+{{- else if eq .chezmoi.arch "x86_64" -}}
+chsh -s /usr/local/bin/zsh
+{{ end -}}
+
+{{ end -}}
