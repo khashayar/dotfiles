@@ -31,7 +31,7 @@ if [ -d "$HOME/.local/share/chezmoi/.git" ]; then
   echo "🚸  chezmoi already initialized"
   echo "    Reinitialize with: 'chezmoi init https://github.com/khashayar/dotfiles.git'"
 else
-  echo "🚀  Initializing dotfiles" && chezmoi init https://github.com/khashayar/dotfiles.git
+  echo "🚀  Initializing dotfiles" && chezmoi init https://github.com/khashayar/dotfiles.git --apply
 fi
 
 echo ""
