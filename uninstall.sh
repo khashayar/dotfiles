@@ -14,8 +14,8 @@ command -v brew >/dev/null 2>&1 && \
   sudo rm -rf /opt/homebrew/)
 
 # Uninstall Oh-My-Zsh
-if [ -f ~/.oh-my-zsh/oh-my-zsh.sh ]; then
-  (echo '💰  Uninstalling oh-my-zsh' && uninstall_oh_my_zsh)
+if [ -f ~/.oh-my-zsh/tools/uninstall.sh ]; then
+  (echo '💰  Uninstalling oh-my-zsh' && sh ~/.oh-my-zsh/tools/uninstall.sh)
 fi
 
 # Uninstall chezmoi
