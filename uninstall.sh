@@ -13,11 +13,11 @@ command -v brew >/dev/null 2>&1 && \
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)" && \
   sudo rm -rf /opt/homebrew/)
 
-# Uninstall Oh My Zsh
+# Uninstall Oh-My-Zsh
 command -v uninstall_oh_my_zsh >/dev/null 2>&1 && \
   (echo '💰  Uninstalling oh-my-zsh' && uninstall_oh_my_zsh)
 
-# Uninstall Chezmoi
+# Uninstall chezmoi
 command -v chezmoi >/dev/null 2>&1 && \
   (echo '👊  Uninstalling chezmoi' && chezmoi purge)
 
