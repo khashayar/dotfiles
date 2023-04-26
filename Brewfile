@@ -31,7 +31,7 @@ cask "zoom"
 
 mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
-mas "Fantastical" id: 975937182
+mas "Fantastical", id: 975937182
 mas "Meeter", id: 1510445899
 mas "PDF Expert", id: 1055273043
 mas "Slack", id: 803453959
