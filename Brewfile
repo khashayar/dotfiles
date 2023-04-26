@@ -17,10 +17,12 @@ cask "bartender"
 cask "deepl"
 cask "discord"
 cask "docker"
+cask "fantastical"
 cask "iterm2"
 cask "microsoft-teams"
 cask "monitorcontrol"
 cask "notion"
+cask "pdf-expert"
 cask "raycast"
 cask "rectangle"
 cask "trezor-suite"
@@ -31,9 +33,7 @@ cask "zoom"
 
 mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
-mas "Fantastical", id: 975937182
 mas "Meeter", id: 1510445899
-mas "PDF Expert", id: 1055273043
 mas "Slack", id: 803453959
 mas "ToothFairy", id: 1191449274
 mas "Twitter", id: 1482454543
