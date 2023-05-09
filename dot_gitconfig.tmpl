@@ -2,6 +2,20 @@
 
   name = Khashayar Hajian
   email = me@khashayar.me
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG2EgQJ3soBsJPOIPLQaiCmxAIPvCpl1gctgvYpLDhR0
+
+[gpg]
+
+  format = ssh
+
+[gpg "ssh"]
+
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+
+  gpgsign = true
+
 
 [alias]
 
