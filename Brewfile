@@ -1,3 +1,4 @@
+brew "exa"
 brew "git"
 brew "jq"
 brew "htop"
@@ -7,7 +8,6 @@ brew "tree"
 brew "tmux"
 brew "vim"
 brew "zsh"
-brew "zsh-completions"
 
 cask "1password"
 cask "1password-cli"
