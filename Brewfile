@@ -31,6 +31,7 @@ cask "rectangle"
 cask "trezor-suite"
 cask "visual-studio-code"
 cask "vivaldi"
+cask "vlc"
 cask "zoom"
 
 mas "1Password for Safari", id: 1569813296
