@@ -10,6 +10,7 @@ brew "tmux"
 brew "vim"
 brew "zsh"
 
+
 cask "1password"
 cask "1password-cli"
 cask "arc"
