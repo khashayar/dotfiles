@@ -12,6 +12,7 @@ brew "zsh"
 
 cask "1password"
 cask "1password-cli"
+cask "arc"
 cask "bartender"
 cask "beeper"
 cask "deepl"
