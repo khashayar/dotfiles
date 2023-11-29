@@ -44,4 +44,4 @@ mas "Telegram", id: 747648890
 mas "ToothFairy", id: 1191449274
 mas "Twitter", id: 1482454543
 mas "UTM Virtual Machines", id: 1538878817
-mas "WhatsApp Desktop", id: 1147396723
+mas "WhatsApp Messenger", id: 310633997
