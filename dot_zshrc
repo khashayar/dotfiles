@@ -110,10 +110,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [ -x "$(command -v exa)" ]; then
-  alias ls="exa --icons --classify"
-  alias la="exa --long --all --group --icons --git"
-  alias lt="exa --tree"
+if [ -x "$(command -v eza)" ]; then
+  alias ls="eza --icons --classify"
+  alias la="eza --long --all --group --icons --git"
+  alias lt="eza --tree"
 fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

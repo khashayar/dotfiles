@@ -1,4 +1,4 @@
-brew "exa"
+brew "eza"
 brew "git"
 brew "jq"
 brew "htop"
