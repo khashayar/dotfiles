@@ -1,3 +1,4 @@
+brew "codex"
 brew "eza"
 brew "git"
 brew "jq"
